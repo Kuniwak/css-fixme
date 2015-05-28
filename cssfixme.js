@@ -441,7 +441,7 @@ function createFixupRulesFromCSS(obj){
 	            	if(warnAgainstPotentiallyOverwrittenValues){
 		            	var existingValue = getValueForProperty(fixupDeclarations.concat(rule.declarations), prop, false);
 		            	if(existingValue !== undefined && !/(-webkit-|box)/.test(existingValue)){ // now it gets complicated. There is a declaration for the property we want to add, but the value is different..
-		            		console.log('Whoa, Sir! We want to add "' + prop + ':' + value +'", but found "' + prop + ':' + existingValue +'"');
+		            		console.error('Whoa, Sir! We want to add "' + prop + ':' + value +'", but found "' + prop + ':' + existingValue +'"');
 
 		            	}
 	            	}
