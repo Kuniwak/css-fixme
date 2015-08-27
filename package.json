@@ -1,0 +1,19 @@
+{
+  "name": "css-fixme",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./cssfixme.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.lo.mixi.jp/less-reviewers/css-fixme"
+  },
+  "author": "hallvors, Kuniwak",
+  "license": "MIT",
+  "dependencies": {
+    "css-parse": "^2.0.0"
+  }
+}
